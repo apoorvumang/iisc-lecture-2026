@@ -4,3 +4,5 @@ __pycache__/
 .DS_Store
 prev_stuff/
 Inception Deck.pptx
+
+.ipynb_checkpoints/
