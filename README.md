@@ -53,6 +53,6 @@ uv pip install -r requirements.txt
 jupyter lab lecture2_diffusion.ipynb
 ```
 
-BERT-base (~440 MB) downloads automatically on first run. The notebook runs fully on CPU (M-series Mac or any machine).
+ModernBERT-large (~600 MB) downloads automatically on first run. The notebook runs fully on CPU (M-series Mac or any machine).
 
 For the Dream diffusion LLM demo (Part 5), a GPU is needed — the relevant cells have a `USE_DREAM = False` flag with pre-computed example outputs shown below.
