@@ -21,9 +21,8 @@ Instructor: Danish Pruthi
 ### Running the notebook
 
 ```bash
-uv venv
-source .venv/bin/activate
-uv pip install torch torchvision transformers jupyterlab matplotlib numpy
+uv venv && source .venv/bin/activate
+uv pip install -r requirements.txt
 jupyter lab lecture1_decoding.ipynb
 ```
 
@@ -49,9 +48,8 @@ GPT-2 (~500 MB) downloads automatically on first run.
 ### Running the notebook
 
 ```bash
-uv venv
-source .venv/bin/activate
-uv pip install torch transformers jupyterlab
+uv venv && source .venv/bin/activate
+uv pip install -r requirements.txt
 jupyter lab lecture2_diffusion.ipynb
 ```
 
